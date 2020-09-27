@@ -7,7 +7,7 @@ function setup()
   createCanvas(800,400);
    
   bullet = createSprite(100, 200, 80, 10);
-  bullet.shapeColor = "white";
+  bullet.shapeColor = "yellow";
   speed = random(233,321);
   weight = random(30,52);
   bullet.velocityX = speed;
